@@ -2,7 +2,7 @@
 
 set -ex
 
-REPOSITORY=361527076523.dkr.ecr.us-west-2.amazonaws.com/sentry
+REPOSITORY=public.ecr.aws/r3k4u0b7/sentry
 VERSION=${VERSION:=latest}
 BUILDNUM=${BUILDNUM:=NaN}
 TAG="$VERSION-$BUILDNUM"
