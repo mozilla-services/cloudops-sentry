@@ -2,7 +2,7 @@
 
 set -ex
 
-REPOSITORY=361527076523.dkr.ecr.us-west-2.amazonaws.com/sentry
+REPOSITORY=gcr.io/moz-fx-cloudops-images-global/sentry
 VERSION=${VERSION:=latest}
 BUILDNUM=${BUILDNUM:=NaN}
 TAG="$VERSION-$BUILDNUM"
