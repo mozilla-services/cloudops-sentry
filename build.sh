@@ -13,4 +13,6 @@ else
   docker build --rm -t "$REPOSITORY:$TAG" .
 fi
 
-docker push "$REPOSITORY:$TAG"
+gcp.python_deploy_wrapper {
+  sh("docker push \"$REPOSITORY:$TAG\"")
+}
